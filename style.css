@@ -1,0 +1,97 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    width: 20%;
+    margin:auto;
+}
+.on-off{
+    height: 10px;
+    width: 10px;
+    background-color:red;
+    margin:5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 5px red;
+    
+}
+
+.solution-container{
+    text-align: end;
+    padding: 10px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: gray;
+    margin:30px;
+}
+.solution-container h2{
+    color: rgb(212, 177, 188);
+    font-size: large;
+}
+.solution-container h1{
+    color: rgb(214, 201, 214);
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.calculator-body{
+    width: 100%;
+    min-width: 300px;
+    border-radius: 10px;
+    border: solid 2px palevioletred;
+    margin-top: 2em;
+    background-color:rgb(27, 26, 26);
+}
+.numbers-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+   
+   
+}
+
+.numbers-container button{
+    
+    display: inline-block;
+    margin: 4px;
+    border-radius: 15px;
+     box-sizing: border-box;
+    font-size:large;
+    font-weight: 900;
+    cursor: pointer;
+    padding:1em 0.1em;
+    transition: ease-in 0.5s;
+   
+    
+}
+.num:hover{
+    background-color: #FFFDD0;
+    border: rgb(214, 214, 34) solid 2px;
+}
+
+
+.operator, .clear-all,.clear, .equal{
+   background-color: gray;
+   border: rgb(117, 116, 114) 1px solid;
+   color:white;
+}
+.operator:hover, .clear-all:hover,.clear:hover{
+    background-color: darkorange;
+    border: white 1px solid;
+ }
+ .numbers-container button:hover{
+    position: relative;
+    bottom:2px;
+  
+ }
+ .equal{
+    grid-column: 3/5;
+    border-radius: 15px;
+    
+    padding:5px;
+    
+}
+.equal:hover{
+     background-color: rgb(30, 207, 30);;
+}
