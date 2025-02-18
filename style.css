@@ -4,8 +4,6 @@
     padding: 0;
 }
 body{
-    width: 20%;
-    margin:auto;
     background-color: rgba(83, 166, 226, 0.944);
 }
 .on-off{
@@ -48,8 +46,10 @@ body{
 }
 
 .calculator-body{
-    width: 100%;
-    min-width: 300px;
+    margin: auto;
+    width: 90%;
+    max-width: 300px;
+    min-width: 285px;
     border-radius: 10px;
     border: solid 2px palevioletred;
     margin-top: 2em;
